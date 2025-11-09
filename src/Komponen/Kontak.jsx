@@ -37,7 +37,7 @@ export const Kontak = () => {
                             </div>
                             <div>
                                 <h4 className="font-medium">Email</h4>
-                                <a href="https://mail.google.com/mail/u/0/?fs=1&to=alfiandixsy@gmail.com&tf=cm"
+                                <a href="https://mail.google.com/mail/u/0/?fs=1&to=alfiananakrajin@gmail.com&tf=cm"
                                     className="text-muted-foreground hover:text-primary transition-colors">
                                     alfiananakrajin@gmail.com
                                 </a>
