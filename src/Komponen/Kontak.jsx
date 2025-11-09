@@ -39,7 +39,7 @@ export const Kontak = () => {
                                 <h4 className="font-medium">Email</h4>
                                 <a href="https://mail.google.com/mail/u/0/?fs=1&to=alfiandixsy@gmail.com&tf=cm"
                                     className="text-muted-foreground hover:text-primary transition-colors">
-                                    alfiandixsy@gmail.com
+                                    alfiananakrajin@gmail.com
                                 </a>
                             </div>
                         </div>
@@ -74,10 +74,10 @@ export const Kontak = () => {
                             <a href="https://www.linkedin.com/in/alvian-putra-dixsy-7a3259279/" target="_blank">
                                 <Linkedin />
                             </a>
-                            <a href="#" target="_blank">
+                            <a href="https://www.instagram.com/yan_ptr04?igsh=MXA1cHE2aWdzeTRzNw==" target="_blank">
                                 <Instagram />
                             </a>
-                            <a href="#" target="_blank">
+                            <a href="https://www.facebook.com/alfian.id04" target="_blank">
                                 <Facebook />
                             </a>
                             <a href="https://youtube.com/@fian_04?si=Laf7gsccXaVSUrMv" target="_blank">
