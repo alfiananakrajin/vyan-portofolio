@@ -39,6 +39,25 @@ const projek = [
     },
 ]
 
+const proyek = [
+    {
+        id: 1,
+        judul: 'Vyan Marketplace',
+        deskripsi: 'Ui design yg bertemakan marketplace dengan menjual produk sembako',
+        gambar: '/Projek/Projek5.png',
+        tags: ['UI Design', 'UX'],
+        demoUrl: 'https://www.figma.com/design/HADBLBb4WvTQhB5CR2CSzL/Vyan-Marketplace?node-id=0-1&t=ImZYEJYBqgg3g6zy-1',
+    },
+    {
+        id: 2,
+        judul: 'Amanah Fried Chicken',
+        deskripsi: 'Design ui/ux yg dikembangkan oleh kami di waktu magang kampus sebagai kewajiban tugas dari ui/ux design',
+        gambar: '/Projek/Projek6.png',
+        tags: ['UI Design', 'UX'],
+        demoUrl: 'https://www.figma.com/design/dcks9YEPCjmY7X1Kpz8c9c/fried-chicken-site?m=auto&t=ImZYEJYBqgg3g6zy-6',
+    },
+]
+
 export const Portofolio = () => {
     return <section id="portofolio" className="py-24 px-4 relative">
         <div className="container mx-auto max-w-5xl">
@@ -86,6 +105,42 @@ export const Portofolio = () => {
                                         target="_blank"
                                         className="text-foreground/80 hover:text-primary transition-colors duration-300">
                                         <Github size={20} />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                ))}
+
+                {proyek.map((proyek) => (
+                    <div key={proyek.id} className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
+                        <div className="h-48 overflow-hidden">
+                            <img
+                                src={proyek.gambar}
+                                alt={proyek.judul}
+                                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+                        </div>
+                        <div className="p-6">
+                            <div className="flex flex-wrap gap-2 mb-4">
+                                {proyek.tags.map((tag, index) => (
+                                    <span key={index} className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-shadow-foreground">
+                                        {tag}
+                                    </span>
+                                ))}
+                            </div>
+                            <h3 className="text-xl font-semibold mb-1">
+                                {proyek.judul}
+                            </h3>
+                            <p className="text-muted-foreground text-sm mb-4">
+                                {proyek.deskripsi}
+                            </p>
+
+                            <div className="flex justify-between items-center">
+                                <div className="flex space-x-3">
+                                    <a href={proyek.demoUrl}
+                                        target="_blank"
+                                        className="text-foreground/80 hover:text-primary transition-colors duration-300">
+                                        <ExternalLink size={20} />
                                     </a>
                                 </div>
                             </div>

@@ -16,7 +16,7 @@ export const SectionUtama = () => {
                 </p>
                 <div className="pt-4 opacity-0 animate-fade-in-delay-4">
                     <a href="#portofolio" className="cosmic-button">
-                        Silahkan lihat projek portofolio saya
+                        Silahkan Dilihat
                     </a>
                 </div>
             </div>

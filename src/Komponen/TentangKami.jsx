@@ -15,8 +15,9 @@ export const TentangKami = () => {
                             Keahlian pada UI/UX Design dan Web Development
                         </h3>
                         <p className="text-muted-foreground">
-                            Saya belajar di Web Development dan UI/UX Design selama 1 tahun di masa perkuliahan
-                            saya di semester 5 dengan jurusan D3 Teknik Informatika dari Universitas Amikom Yogyakarta.
+                            Saya lulusan mahasiswa dari Universitas Amikom Yogyakarta dengan jurusan D3 Teknik Informatika.
+                            Saya telah belajar di Web Development dan UI/UX Design selama 1 tahun di masa perkuliahan
+                            saya di semester 5.
                         </p>
                         <p className="text-muted-foreground">
                             Saya memiliki keahlian dalam membuat desain website secara elegan dan memiliki solusi
@@ -25,11 +26,11 @@ export const TentangKami = () => {
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-                            <a href="kontak" className="cosmic-button">
+                            <a href="#portofolio" className="cosmic-button">
                                 Monggo Lihat Projek Saya
                             </a>
 
-                            <a href="kontak" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+                            <a href="https://www.canva.com/design/DAGN0MlvBes/VR_AYtOQlO0-AEjAhMNqpQ/view" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
                                 Download CV Saya
                             </a>
                         </div>
